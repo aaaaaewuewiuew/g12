@@ -1,0 +1,15 @@
+@keyframes bgcolor {
+    50% {
+        background-color:#000000
+    }
+    100% {
+        background-color: #fffff
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 1s infinite;
+    animation: bgcolor 0.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
